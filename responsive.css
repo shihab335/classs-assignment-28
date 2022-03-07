@@ -1,0 +1,169 @@
+@media all and (max-width:1400px) {
+    .about-me {
+        padding-top: 35px;
+    }
+}
+@media all and (max-width:1200px) {
+    .about-me {
+        padding-top: 0;
+    }
+    .service-box p {
+        font-size: 18px;
+    }
+    .post {
+        padding: 40px;
+    }
+    .team-iner h2 {
+        padding-top: 20px;
+        font-size: 23px;
+    }
+    .team-iner h5 {
+        font-size: 18px;
+    }
+    .team-iner p {
+        font-size: 15px;
+    }
+    .about-me a {
+        line-height: 50px;
+    }
+}
+@media all and (max-width:992px) {
+    .post:nth-child(1){
+        margin-bottom: 90px;
+    }
+    .post:nth-child(2){
+        margin-bottom: 90px;
+    }
+    .post:nth-child(3){
+        margin-bottom: 0;
+    }
+    .post:nth-child(4){
+        margin-bottom: 0;
+    }
+    .team {
+        padding-bottom: 0;
+    }
+    .form-right {
+        padding-top: 23px;
+        padding-left: 0;
+    }
+    .bannner-left {
+        padding-top: 0;
+    }
+    .about-me {
+        padding-top: 25px;
+    }
+    .project-box h5 {
+        font-size: 18px;
+    }
+    .service-box:last-child{
+        margin-top: 30px;
+    }
+    .morifty-revarce{
+        flex-direction: column-reverse;
+    }
+}
+@media all and (max-width:768px) {
+    .team-iner p {
+        font-size: 15px;
+    }
+    .post img {
+        width: 80px;
+    }
+    .about-me a {
+        padding: 10px 20px;
+    }
+    .bannner-left a {
+        padding: 10px 20px;
+    }
+    .project-box {
+        padding: 25px 0;
+    }
+    .media-1 {
+        display: inherit;
+    }
+    .media-2 {
+        margin-right: 0;
+    }
+    .media-3 {
+        margin-left: 0;
+    }
+    .service-box {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media all and (max-width:576px) {
+    .post {
+        width: 60%;
+        margin: auto;
+    }
+    .post:last-child {
+        margin-right: auto;
+    }
+    .service-box:last-child {
+        margin-top: 30px !important;
+        width: 80%;
+        margin: auto;
+    }
+    .service-box p {
+        font-size: 16px;
+    }
+    .ser-one {
+        padding-top: 0;
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+    }
+    .ser-one h2 {
+        line-height: 120px;
+    }
+    .service-box p {
+        padding: 0;
+    }
+    .post img {
+        width: 90px;
+    }
+}
+@media all and (max-width:500px) {
+    .post {
+        width: 70%;
+        margin: auto;
+    }
+}
+@media all and (max-width:400px) {
+    .footer p {
+        font-size: 14px;
+    }
+    .form-right ul li h5 {
+        font-size: 17px;
+    }
+    .form-right h3 {
+        font-size: 21px;
+    }
+    .about-me a {
+        font-size: 15px;
+    }
+    .bannner-left a {
+        font-size: 15px;
+    }
+    .form-div form textarea {
+        height: 110px;
+        padding: 7px;
+    }
+    .form-div form input {
+        padding: 7px !important;
+    }
+    .form-div form button {
+        padding: 8px 30px;
+    }
+    .service-box {
+        width: 95%;
+        margin: auto;
+    }
+    .post {
+        width: 90%;
+        margin: auto;
+    }
+}
